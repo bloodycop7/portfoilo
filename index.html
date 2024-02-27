@@ -2,20 +2,72 @@
 <html>
 
 <head>
-    <title>eon - portfoilo</title>
+    <title>eon (bloodycop)</title>
     <link href="index.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="main-container">
-        <div id="portfoiloTextPog" class="portfoilotext">Portfoilo</div>
-        <div id="imTruing" class="main-title">eon</div>
-        <div id="about-me" class="me-title">About me: </div>
-        <div id="suppressed" class="suppressed-title">Suppressed</div>
-        <div id="leaddevserver" class="ldev-title">Lead Developer</div>
-        <div class="info-item"><a href="https://www.youtube.com/channel/UCurHS3iLyptMSQsxUtz21hQ" style="text-decoration: none;">Youtube</a></div>
+    <div id="snowflakes">
+        <script type="text/javascript" src="particles.js"></script>
+        <script type="text/javascript" src="app.js"></script>
     </div>
-    <script src="./script.js"></script>
-</body>
 
+    <div id="main">
+        <label class="myname">eon (Bloodycop)</label>
+
+        <div id="buttons">
+            <button class="linkgithub" onclick="OpenGithub()">GitHub</button>
+            <button class="linkyoutube" onclick="OpenYoutube()">YouTube</button>
+
+            <script>
+                function OpenGithub() {
+                    window.open("https://github.com/bloodycop7");
+                }
+    
+                function OpenYoutube() {
+                    window.open("https://www.youtube.com/channel/UCurHS3iLyptMSQsxUtz21hQ");
+                }
+            </script>
+        </div>
+
+        <label class="aboutme">About Me</label>
+        <label class="aboutme_info">
+            Hello there! I'm eon, but I'm also known as bloodycop because of my Roleplaying Style.
+            <br>
+            I enjoy playing Garry's Mod, to be more specific I enjoy playing Half-Life 2 Roleplay.
+            <br>
+            I mostly play as a Civil Protection, but yeah.
+            <br>
+            As you have probably guessed by now, big Half-Life fan.
+        </label>
+
+        <label class="projects_positions">Projects & Positions | Garry's Mod</label>
+
+        <label class="position_minerva">Minerva Servers<br>Joined development team in version 0.2, been a developer for the most time ever since.</label>
+
+        <button class="link_project_minerva" onclick="GoToMinerva()">Discord</button>
+
+        <script>
+            function GoToMinerva() {
+                window.open("https://discord.gg/minervaservers");
+            }
+        </script>
+
+        <label class="project_ixehl2rp">Helix: Enhanced Half-Life 2 Roleplay<br>Started working on this in late 2023 to provide other developers with more core features for Half-Life 2 Roleplay</label>
+    
+        <button class="link_project_ixehl2rp" onclick="GoToIXEHL2RP()">GitHub</button>
+
+        <script>
+            function GoToIXEHL2RP() {
+                window.open("https://github.com/bloodycop7/ixehl2rp");
+            }
+        </script>
+    </div>
+
+    <div id="pictures">
+        <img src="https://cdn.discordapp.com/attachments/1112870515703562322/1211728186304503888/20240226193444_1.jpg?ex=65ef40d0&is=65dccbd0&hm=5cab9493bcfcddf29ac0c8d6d91129c3d7300b7d13fc246c4a3d52e35a8a5333&"></img>
+        <img src="https://cdn.discordapp.com/attachments/1112870515703562322/1207397101403902074/image.png?ex=65e8b9ad&is=65d644ad&hm=a2236a4be1451a04c4ac6452c10e4a198a8cd00969cbef99cb29329d619bc5c5&"></img>
+        <img src="https://cdn.discordapp.com/attachments/1112870515703562322/1200216486132850808/image.png?ex=65ea49b5&is=65d7d4b5&hm=b71ace335fcdd282c2bad8951d3151b057f4a597eebf4c4c3ff271ade422d6e6&"></img>
+    </div>
+</body>
 </html>

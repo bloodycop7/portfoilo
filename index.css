@@ -1,96 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
 body {
-    padding: 0;
-    margin: 0;
-    background-color: rgb(17, 17, 17);
-    width: 100%;
-    height: 100%;
-}
-
-* {
-    color: white;
-}
-
-.portfoilotext {
-    margin-bottom: 500px;
-    margin-right: 1550px;
-    text-align: left;
-    font-size: 80px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 1000;
-    position: absolute;
-}
-
-.main-container {
+    background-color: hsla(0,0%,0%,1);
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    height: 100%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#snowflakes {
     width: 100%;
+    height: 100%;
+    position: fixed;
+    filter: blur(2px);
 }
 
-.main-title {
-    margin-top: 12.5rem;
-    margin-right: 1700px;
-    text-align: left;
-    font-size: 5rem;
-    font-family: 'Roboto', sans-serif;
-    transition: all 1200ms cubic-bezier(0.34, 1.56, 0.64, 1);
-    opacity: 0;
-    transform: translateY(-120%);
+#main {
+    width: 50%;
+    height: 100vh;
 }
 
-.suppressed-title {
-    margin-top: 10px;
-    margin-right: 1600px;
-    color: rgb(255, 80, 0);
-    text-align: center;
+#pictures {
+    margin-left: 20px;
+    width: 50%;
+    height: 100vh;
+}
+
+#pictures img {
+    width: 80%;
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+#main label.myname {
+    color:rgb(255, 255, 255);
+    position: relative;
+    font-family: 'Frak';
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    transition: all 1200ms cubic-bezier(0.34, 1.56, 0.64, 1);
-    opacity: 0;
+    background: linear-gradient(55deg, rgb(0, 170, 255) 26%, rgb(255, 0, 0) 0%);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
-.ldev-title {
-    margin-top: 10px;
-    margin-right: 1600px;
-    text-align: center;
+#main label.aboutme {
+    color:rgb(255, 255, 255);
+    position: relative;
+    font-family: 'Frak';
+    font-size: 50px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+#main label.aboutme_info {
+    color:rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    font-family: 'Frak';
+    font-size: 25px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    border-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+}
+
+#main label.projects_positions {
+    color:rgb(255, 255, 255);
+    position: relative;
+    font-family: 'Frak';
+    font-size: 50px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+#main label.position_minerva {
+    color:rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    font-family: 'Frak';
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    color: chartreuse;
-    font-weight: bolder;
-    transition: all 1200ms cubic-bezier(0.34, 1.56, 0.64, 1);
-    opacity: 0;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
-.me-title {
-    text-align: left;
-    margin-right: 1650px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+#main button.link_project_minerva {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Frak';
+    font-size: 25px;
+    border-color: rgb(0, 170, 255);
 }
 
-.bodytext {
-    margin: 1.6rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 2rem;
-    padding: 0.1em;
-    max-width: 800px;
-    text-align: center;
+#main button.link_project_ixehl2rp {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Frak';
+    font-size: 25px;
+    border-color: rgb(0, 170, 255);
 }
 
-.me-title-buttons:hover {
-    cursor: pointer;
+#main label.project_ixehl2rp {
+    color:rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    font-family: 'Frak';
+    font-size: 30px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
-.info-item {
-    margin: 1.6rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 2rem;
-    transition: all 250ms linear 0ms;
+#main #buttons button {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Frak';
+    font-size: 25px;
+    border-color: rgb(0, 170, 255);
 }
