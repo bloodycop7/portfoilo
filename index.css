@@ -115,6 +115,26 @@ body::-webkit-scrollbar{
     text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
+#main label.project_cafebaltic {
+    color:rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    font-family: 'Segoe UI Light';
+    font-size: 30px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+#main button.link_project_cafebaltic {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI Light';
+    font-size: 25px;
+    border-color: rgb(0, 170, 255);
+}
+
 #main #buttons button {
     position: relative;
     color: rgb(255, 255, 255);
