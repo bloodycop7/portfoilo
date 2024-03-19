@@ -1,3 +1,6 @@
+@import url("resources/raju.ttf");
+@import url("resources/frak.ttf");
+
 body {
     background-color: hsla(0,0%,0%,1);
     display: flex;
@@ -44,17 +47,17 @@ body::-webkit-scrollbar{
 #main label.aboutme {
     color:rgb(255, 255, 255);
     position: relative;
-    font-family: 'Segoe UI Light';
+    font-family: 'Frak';
     font-size: 50px;
     text-shadow: 0 0 5px rgb(0, 0, 0);
-    margin-top: 30px;
+    margin-top: 150%;
 }
 
 #main label.aboutme_info {
     color:rgb(255, 255, 255);
     position: relative;
     display: flex;
-    font-family: 'Segoe UI Light';
+    font-family: 'Frak';
     font-size: 25px;
     text-shadow: 0 0 5px rgb(0, 0, 0);
     margin-bottom: 20px;
@@ -69,18 +72,18 @@ body::-webkit-scrollbar{
 #main label.projects_positions {
     color:rgb(255, 255, 255);
     position: relative;
-    font-family: 'Segoe UI Light';
+    font-family: 'Frak';
     font-size: 50px;
     text-shadow: 0 0 5px rgb(0, 0, 0);
-    margin-top: 30px;
+    margin-top: 150%;
 }
 
 #main label.position_minerva {
     color:rgb(255, 255, 255);
     position: relative;
     display: flex;
-    font-family: 'Segoe UI Light';
-    font-size: 30px;
+    font-family: 'Frak';
+    font-size: 170%;
     text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
@@ -90,8 +93,8 @@ body::-webkit-scrollbar{
     background-color: black;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: 'Segoe UI Light';
-    font-size: 25px;
+    font-family: 'Frak';
+    font-size: 170%;
     border-color: rgb(0, 170, 255);
 }
 
@@ -101,7 +104,7 @@ body::-webkit-scrollbar{
     background-color: black;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: 'Segoe UI Light';
+    font-family: 'Frak';
     font-size: 25px;
     border-color: rgb(0, 170, 255);
 }
@@ -110,8 +113,8 @@ body::-webkit-scrollbar{
     color:rgb(255, 255, 255);
     position: relative;
     display: flex;
-    font-family: 'Segoe UI Light';
-    font-size: 30px;
+    font-family: 'Frak';
+    font-size: 170%;
     text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
@@ -119,8 +122,8 @@ body::-webkit-scrollbar{
     color:rgb(255, 255, 255);
     position: relative;
     display: flex;
-    font-family: 'Segoe UI Light';
-    font-size: 30px;
+    font-family: 'Frak';
+    font-size: 170%;
     text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
@@ -130,7 +133,7 @@ body::-webkit-scrollbar{
     background-color: black;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: 'Segoe UI Light';
+    font-family: 'Frak';
     font-size: 25px;
     border-color: rgb(0, 170, 255);
 }
@@ -142,7 +145,7 @@ body::-webkit-scrollbar{
     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 5px;
-    font-family: 'Segoe UI Light';
+    font-family: 'Frak';
     font-size: 25px;
     border-color: rgb(0, 170, 255);
 }

@@ -12,34 +12,84 @@
         <script type="text/javascript" src="app.js"></script>
     </div>
 
-    <iframe class="iframetest" src="https://www.youtube.com/watch?v=qXkxLfHHrL0" hidden="true"></iframe>
+    <audio id="pressSound">
+        <source src="resources/openbutton.wav" type="audio/wav">
+    </audio>
 
     <div id="main">
         <label class="myname">eon (Bloodycop)</label>
 
         <script>
+            const musicList = [
+                "resources/music.wav",
+                "resources/music2.wav",
+                "resources/music3.wav",
+                "resources/music4.wav",
+                "resources/music5.wav",
+                "resources/music6.wav",
+            ]
+
+            onkeypress = function() {
+                var audio = document.createElement("audio");
+                audio.src = musicList[Math.floor(Math.random() * musicList.length)];
+
+                if ( audio.paused ) {
+                    audio.volume = 0.025;
+                    audio.play();
+                }
+
+                PlayPressSound();
+            }
+
+            onmousedown = function() {
+                var audio = document.createElement("audio");
+                audio.src = musicList[Math.floor(Math.random() * musicList.length)];
+
+                if ( audio.paused ) {
+                    audio.volume = 0.025;
+                    audio.play();
+                }
+
+                PlayPressSound();
+            }
+
+            function PlayPressSound() {
+                var audio = document.getElementById('pressSound');
+
+                if ( audio.paused ) {
+                    audio.play();
+                }
+                
+            }
+
             function OpenGithub() {
                 window.open("https://github.com/bloodycop7");
+                PlayPressSound()
             }
 
             function OpenYoutube() {
                 window.open("https://www.youtube.com/channel/UCurHS3iLyptMSQsxUtz21hQ");
+                PlayPressSound()
             }
 
             function OpenSteam() {
                 window.open("https://steamcommunity.com/id/bloodycop/");
+                PlayPressSound()
             }
 
             function GoToMinerva() {
                 window.open("https://discord.gg/minervaservers");
+                PlayPressSound()
             }
 
             function GoToIXEHL2RP() {
                 window.open("https://github.com/bloodycop7/ixehl2rp");
+                PlayPressSound()
             }
 
             function GoToCafeBaltic(){
                 window.open("https://discord.gg/jAdMsYzR");
+                PlayPressSound()
             }
         </script>
 
@@ -55,9 +105,9 @@
             <br>
             I enjoy playing Garry's Mod, to be more specific I enjoy playing Half-Life 2 Roleplay.
             <br>
-            I mostly play as a Civil Protection, but yeah.
+            I mostly play as Civil Protection, but yeah.
             <br>
-            As you have probably guessed by now, big Half-Life fan.
+            As you have probably guessed by now, big Half-Life fan. I have all the achievements on HL2 (EP1 & EP2) :)
         </label>
 
         <label class="projects_positions">Projects & Positions | Garry's Mod</label>

@@ -107,20 +107,4 @@ particlesJS('snowflakes',
     },
     "retina_detect": true,
   }
-
 );
-
-function onYouTubeIframeAPIReady() {
-  // iframeId parameter should match your Iframe's id attribute
-  var player = new YT.Player('iframetest', {
-    width: 140,
-    height: 105,
-    videoId: 'qXkxLfHHrL0',
-    events: {
-      'onReady': function (event) {
-        event.target.setVolume(0);
-        event.target.playVideo();
-      }
-    }
-  });
-}
