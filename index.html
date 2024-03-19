@@ -20,6 +20,7 @@
         <label class="myname">eon (Bloodycop)</label>
 
         <script>
+            /*
             const musicList = [
                 "resources/music.wav",
                 "resources/music2.wav",
@@ -28,37 +29,52 @@
                 "resources/music5.wav",
                 "resources/music6.wav",
             ]
+            */
 
             onkeypress = function() {
-                var audio = document.createElement("audio");
-                audio.src = musicList[Math.floor(Math.random() * musicList.length)];
+                /*let audioCheck = document.querySelector("music_background");
 
-                if ( audio.paused ) {
-                    audio.volume = 0.025;
-                    audio.play();
+                if ( !audioCheck ) {
+                    var audio = document.createElement("audio");
+                    audio.className = "music_background";
+                    audio.src = musicList[Math.floor(Math.random() * musicList.length)];
+
+                    if ( audio.paused ) {
+                        audio.volume = 0.025;
+                        audio.play();
+                    }
+
+                    document.body.appendChild(audio);
                 }
+                */
 
                 PlayPressSound();
             }
 
             onmousedown = function() {
-                var audio = document.createElement("audio");
-                audio.src = musicList[Math.floor(Math.random() * musicList.length)];
+                /*
+                let audioCheck = document.querySelector("music_background");
 
-                if ( audio.paused ) {
-                    audio.volume = 0.025;
-                    audio.play();
+                if ( !audioCheck ) {
+                    var audio = document.createElement("audio");
+                    audio.className = "music_background";
+                    audio.src = musicList[Math.floor(Math.random() * musicList.length)];
+
+                    if ( audio.paused ) {
+                        audio.volume = 0.025;
+                        audio.play();
+                    }
+
+                    document.body.appendChild(audio);
                 }
+                */
 
                 PlayPressSound();
             }
 
             function PlayPressSound() {
-                var audio = document.getElementById('pressSound');
-
-                if ( audio.paused ) {
-                    audio.play();
-                }
+                var audio = document.getElementById("pressSound");
+                audio.play();
                 
             }
 
@@ -137,6 +153,8 @@
         </label>
 
         <button class="link_project_cafebaltic" onclick="GoToCafeBaltic()">Discord</button>
+
+        <label class="copyright_label">Copyright @ 2023-2024 eon</label>
     </div>
 
     <div id="pictures">
