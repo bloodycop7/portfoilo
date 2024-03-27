@@ -48,7 +48,6 @@ body::-webkit-scrollbar{
     position: relative;
     font-family: 'Frak';
     font-size: 50px;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
     margin-top: 150%;
 }
 
@@ -58,7 +57,6 @@ body::-webkit-scrollbar{
     display: flex;
     font-family: 'Frak';
     font-size: 25px;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
     margin-bottom: 20px;
     border-bottom: 2px;
     padding-bottom: 40px;
@@ -114,7 +112,6 @@ body::-webkit-scrollbar{
     display: flex;
     font-family: 'Frak';
     font-size: 170%;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 #main label.project_cafebaltic {
@@ -123,7 +120,15 @@ body::-webkit-scrollbar{
     display: flex;
     font-family: 'Frak';
     font-size: 170%;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+#main label.copyright_label {
+    color:rgb(200, 200, 200);
+    display: flex;
+    position: relative;
+    vertical-align: bottom;
+    font-family: 'Frak';
+    font-size: 135%;
 }
 
 #main button.link_project_cafebaltic {
