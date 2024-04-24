@@ -4,6 +4,7 @@
 <head>
     <title>eon (bloodycop)</title>
     <link href="index.css" rel="stylesheet">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -17,106 +18,16 @@
     </audio>
 
     <div id="main">
-        <label class="myname">eon (Bloodycop)</label>
+        <label class="myname"> <:: eon (bloodycop) ::></label>
         <label class="copyright_label">Copyright @ 2022-2024 eon (bloodycop)</label>
-
-        <script>
-            /*
-            const musicList = [
-                "resources/music.wav",
-                "resources/music2.wav",
-                "resources/music3.wav",
-                "resources/music4.wav",
-                "resources/music5.wav",
-                "resources/music6.wav",
-            ]
-            */
-
-            onkeypress = function() {
-                /*let audioCheck = document.querySelector("music_background");
-
-                if ( !audioCheck ) {
-                    var audio = document.createElement("audio");
-                    audio.className = "music_background";
-                    audio.src = musicList[Math.floor(Math.random() * musicList.length)];
-
-                    if ( audio.paused ) {
-                        audio.volume = 0.025;
-                        audio.play();
-                    }
-
-                    document.body.appendChild(audio);
-                }
-                */
-
-                PlayPressSound();
-            }
-
-            onmousedown = function() {
-                /*
-                let audioCheck = document.querySelector("music_background");
-
-                if ( !audioCheck ) {
-                    var audio = document.createElement("audio");
-                    audio.className = "music_background";
-                    audio.src = musicList[Math.floor(Math.random() * musicList.length)];
-
-                    if ( audio.paused ) {
-                        audio.volume = 0.025;
-                        audio.play();
-                    }
-
-                    document.body.appendChild(audio);
-                }
-                */
-
-                PlayPressSound();
-            }
-
-            function PlayPressSound() {
-                var audio = document.getElementById("pressSound");
-                audio.play();
-                
-            }
-
-            function OpenGithub() {
-                window.open("https://github.com/bloodycop7");
-                PlayPressSound()
-            }
-
-            function OpenYoutube() {
-                window.open("https://www.youtube.com/channel/UCurHS3iLyptMSQsxUtz21hQ");
-                PlayPressSound()
-            }
-
-            function OpenSteam() {
-                window.open("https://steamcommunity.com/id/bloodycop/");
-                PlayPressSound()
-            }
-
-            function GoToMinerva() {
-                window.open("https://discord.gg/minervaservers");
-                PlayPressSound()
-            }
-
-            function GoToIXEHL2RP() {
-                window.open("https://github.com/bloodycop7/ixehl2rp");
-                PlayPressSound()
-            }
-
-            function GoToCafeBaltic(){
-                window.open("https://discord.gg/jAdMsYzR");
-                PlayPressSound()
-            }
-        </script>
 
         <div id="buttons">
             <button class="linkgithub" onclick="OpenGithub()">GitHub</button>
-            <button class="linkyoutube" onclick="OpenYoutube()">YouTube</button>
+            <button class="linkyoutube" onclick="OpenYoutube()"><i class="fa-brands fa-youtube"></i>YouTube</button>
             <button class="linksteam" onclick="OpenSteam()">Steam</button>
         </div>
 
-        <label class="aboutme">About Me</label>
+        <label class="aboutme"><:: About Me ::></label>
         <label class="aboutme_info">
             Hello there! I'm eon, but I'm also known as bloodycop because of my Roleplaying Style.
             <br>
@@ -124,10 +35,10 @@
             <br>
             I mostly play as Civil Protection, but yeah.
             <br>
-            As you have probably guessed by now, big Half-Life fan. I have all the achievements on HL2 (EP1 & EP2) :)
+            As you have probably guessed by now, big Half-Life fan. I have all the achievements in HL2 (EP1 & EP2) :)
         </label>
 
-        <label class="projects_positions">Projects & Positions | Garry's Mod</label>
+        <label class="projects_positions"><:: Projects & Positions | Garry's Mod ::></label>
 
         <label class="position_minerva">
             Minerva Servers
@@ -150,16 +61,8 @@
             <br>
             It was a nice server to develop upon, it shut down around 6-8 months ago (as of 3/6/2024 | M/D/Y).
             <br>
-            It got reinstated in the start of 2024/very late 2023, and I am working on the project again.
+            It got reinstated in the start of 2024 / late 2023, and I am working on the project again.
         </label>
-
-        <button class="link_project_cafebaltic" onclick="GoToCafeBaltic()">Discord</button>
-    </div>
-
-    <div id="pictures">
-        <img src="https://cdn.discordapp.com/attachments/1112870515703562322/1211728186304503888/20240226193444_1.jpg?ex=65ef40d0&is=65dccbd0&hm=5cab9493bcfcddf29ac0c8d6d91129c3d7300b7d13fc246c4a3d52e35a8a5333&"></img>
-        <img src="https://cdn.discordapp.com/attachments/1112870515703562322/1207397101403902074/image.png?ex=65e8b9ad&is=65d644ad&hm=a2236a4be1451a04c4ac6452c10e4a198a8cd00969cbef99cb29329d619bc5c5&"></img>
-        <img src="https://cdn.discordapp.com/attachments/1112870515703562322/1200216486132850808/image.png?ex=65ea49b5&is=65d7d4b5&hm=b71ace335fcdd282c2bad8951d3151b057f4a597eebf4c4c3ff271ade422d6e6&"></img>
     </div>
 </body>
 </html>

@@ -9,45 +9,65 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+button {
+    transition: transform 0.2s;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 170, 255);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
 #snowflakes {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
     filter: blur(2px);
 }
 
 #main {
-    width: 50%;
+    width: 100%;
     height: 100vh;
-}
-
-#pictures {
-    margin-left: 20px;
-    width: 50%;
-    height: 100vh;
-}
-
-#pictures img {
-    width: 80%;
-    display: block;
-    margin-left: 5%;
-    margin-bottom: 2%;
 }
 
 #main label.myname {
     color:rgb(255, 255, 255);
     position: relative;
     font-family: 'Frak';
-    font-size: 50px;
+    font-size: 270%;
     background: linear-gradient(55deg, rgb(0, 170, 255) 26%, rgb(255, 0, 0) 0%);
     text-shadow: 0 0 5px rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#main label.copyright_label {
+    color:rgb(200, 200, 200);
+    display: flex;
+    position: relative;
+    vertical-align: middle;
+    font-family: 'Frak';
+    padding-top: 10px;
+    text-align: center;
+    font-size: 135%;
+}
+
+#main #buttons button {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: 'Frak';
+    font-size: 25px;
 }
 
 #main label.aboutme {
     color:rgb(255, 255, 255);
     position: relative;
     font-family: 'Frak';
-    font-size: 50px;
+    font-size: 300%;
     margin-top: 150%;
 }
 
@@ -58,19 +78,19 @@ body::-webkit-scrollbar{
     font-family: 'Frak';
     font-size: 25px;
     margin-bottom: 20px;
-    border-bottom: 2px;
     padding-bottom: 40px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    border-style: solid;
+    border-bottom: 1;
+    border-style: ridge;
 }
 
 #main label.projects_positions {
     color:rgb(255, 255, 255);
     position: relative;
     font-family: 'Frak';
-    font-size: 50px;
+    font-size: 300%;
     text-shadow: 0 0 5px rgb(0, 0, 0);
     margin-top: 150%;
 }
@@ -82,6 +102,8 @@ body::-webkit-scrollbar{
     font-family: 'Frak';
     font-size: 170%;
     text-shadow: 0 0 5px rgb(0, 0, 0);
+    border-top: 20px;
+    border-color: rgb(20, 112, 133);
 }
 
 #main button.link_project_minerva {
@@ -122,15 +144,6 @@ body::-webkit-scrollbar{
     font-size: 170%;
 }
 
-#main label.copyright_label {
-    color:rgb(200, 200, 200);
-    display: flex;
-    position: relative;
-    vertical-align: bottom;
-    font-family: 'Frak';
-    font-size: 135%;
-}
-
 #main button.link_project_cafebaltic {
     position: relative;
     color: rgb(255, 255, 255);
@@ -139,17 +152,4 @@ body::-webkit-scrollbar{
     margin-bottom: 20px;
     font-family: 'Frak';
     font-size: 25px;
-    border-color: rgb(0, 170, 255);
-}
-
-#main #buttons button {
-    position: relative;
-    color: rgb(255, 255, 255);
-    background-color: black;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    font-family: 'Frak';
-    font-size: 25px;
-    border-color: rgb(0, 170, 255);
 }
