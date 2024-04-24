@@ -124,7 +124,7 @@ button:hover {
     margin-top: 10px;
     margin-bottom: 20px;
     font-family: 'Frak';
-    font-size: 25px;
+    font-size: 170%;
     border-color: rgb(0, 170, 255);
 }
 
@@ -142,14 +142,4 @@ button:hover {
     display: flex;
     font-family: 'Frak';
     font-size: 170%;
-}
-
-#main button.link_project_cafebaltic {
-    position: relative;
-    color: rgb(255, 255, 255);
-    background-color: black;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-family: 'Frak';
-    font-size: 25px;
 }
