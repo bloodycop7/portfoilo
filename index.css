@@ -19,6 +19,10 @@ button:hover {
     transform: scale(1.1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #snowflakes {
     width: 100%;
     height: 100vh;
