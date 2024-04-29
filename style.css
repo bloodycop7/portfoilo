@@ -16,7 +16,8 @@ button {
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) translate(0, -5px);
+    border: 2px solid rgb(255, 0, 0);
 }
 
 html {
@@ -119,6 +120,13 @@ html {
     font-family: 'Frak';
     font-size: 170%;
     border-color: rgb(0, 170, 255);
+    border-color: rgb(0, 170, 255);
+    transition: transform 0.2s;
+}
+
+#main button.link_project_minerva:hover {
+    transform: scale(1.1) translate(0, -5px);
+    border: 2px solid rgb(255, 0, 0);
 }
 
 #main button.link_project_ixehl2rp {
@@ -130,6 +138,12 @@ html {
     font-family: 'Frak';
     font-size: 170%;
     border-color: rgb(0, 170, 255);
+    transition: transform 0.2s;
+}
+
+#main button.link_project_ixehl2rp:hover {
+    transform: scale(1.1) translate(0, -5px);
+    border: 2px solid rgb(255, 0, 0);
 }
 
 #main label.project_ixehl2rp {
