@@ -1,13 +1,3 @@
-function PlayPressSound() {
-    var audio = document.getElementById("pressSound");
-    audio.volume = 0.1;
-    audio.play();
-}
-
-window.addEventListener("input", function() {
-    PlayPressSound();
-})
-
 function OpenGithub() {
     window.open("https://github.com/bloodycop7");
 }

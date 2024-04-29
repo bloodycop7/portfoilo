@@ -1,7 +1,13 @@
-@import url("resources/frak.ttf");
+@font-face {
+    font-family: "SiteFont";
+    src: url("resources/frak.ttf") format("truetype"),
+        url("resources/frak.woff") format("woff"),
+        url("resources/frak.svg") format("svg")
+        url("resources/frak.eot");
+}
 
 body {
-    background-color: hsla(0,0%,0%,1);
+    background-color: black;
     display: flex;
 }
 
@@ -39,21 +45,20 @@ html {
 #main label.myname {
     color:rgb(255, 255, 255);
     position: relative;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 270%;
-    background: linear-gradient(55deg, rgb(0, 170, 255) 26%, rgb(255, 0, 0) 0%);
+    background: linear-gradient(60deg, rgb(0, 170, 255) 33%, rgb(255, 0, 0) 0%);
     text-shadow: 0 0 5px rgb(0, 0, 0);
     border-radius: 20px;
+    text-transform: lowercase;
 }
 
 #main label.copyright_label {
     color:rgb(200, 200, 200);
     display: flex;
     position: relative;
-    vertical-align: middle;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     padding-top: 10px;
-    text-align: center;
     font-size: 135%;
 }
 
@@ -64,14 +69,14 @@ html {
     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 5px;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 25px;
 }
 
 #main label.aboutme {
     color:rgb(255, 255, 255);
     position: relative;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 300%;
     margin-top: 150%;
 }
@@ -80,7 +85,7 @@ html {
     color:rgb(255, 255, 255);
     position: relative;
     display: flex;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 25px;
     margin-bottom: 20px;
     padding-bottom: 40px;
@@ -94,7 +99,7 @@ html {
 #main label.projects_positions {
     color:rgb(255, 255, 255);
     position: relative;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 300%;
     text-shadow: 0 0 5px rgb(0, 0, 0);
     margin-top: 150%;
@@ -104,7 +109,7 @@ html {
     color:rgb(255, 255, 255);
     position: relative;
     display: flex;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 170%;
     text-shadow: 0 0 5px rgb(0, 0, 0);
     border-top: 20px;
@@ -117,7 +122,7 @@ html {
     background-color: black;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 170%;
     border-color: rgb(0, 170, 255);
     border-color: rgb(0, 170, 255);
@@ -135,7 +140,7 @@ html {
     background-color: black;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 170%;
     border-color: rgb(0, 170, 255);
     transition: transform 0.2s;
@@ -150,7 +155,7 @@ html {
     color:rgb(255, 255, 255);
     position: relative;
     display: flex;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 170%;
 }
 
@@ -158,6 +163,6 @@ html {
     color:rgb(255, 255, 255);
     position: relative;
     display: flex;
-    font-family: 'Frak';
+    font-family: 'SiteFont';
     font-size: 170%;
 }
