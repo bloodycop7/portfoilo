@@ -7,8 +7,13 @@
 }
 
 body {
-    background-color: black;
+    background-color: black blur(3px);
+    background-image: url("resources/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar{
@@ -30,25 +35,18 @@ html {
     scroll-behavior: smooth;
 }
 
-#background {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    filter: blur(1px) brightness(0.8);
-}
-
-#snowflakes {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    filter: blur(2px);
+html::-webkit-scrollbar {
+    display: none;
 }
 
 #main {
+    
     width: 100%;
     height: 100vh;
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #main label.myname {
@@ -59,7 +57,7 @@ html {
     background: linear-gradient(60deg, rgb(0, 170, 255) 33%, rgb(255, 0, 0) 0%);
     text-shadow: 0 0 5px rgb(0, 0, 0);
     border-radius: 20px;
-    text-transform: lowercase;
+    text-shadow: black 2px 1px;
 }
 
 #main label.copyright_label {
@@ -69,6 +67,7 @@ html {
     font-family: 'SiteFont';
     padding-top: 10px;
     font-size: 135%;
+    text-shadow: black 2px 1px;
 }
 
 #main #buttons button {
@@ -80,6 +79,7 @@ html {
     margin-bottom: 5px;
     font-family: 'SiteFont';
     font-size: 150%;
+    text-shadow: black 2px 1px;
 }
 
 #main label.aboutme {
@@ -88,6 +88,7 @@ html {
     font-family: 'SiteFont';
     font-size: 300%;
     margin-top: 150%;
+    text-shadow: black 2px 1px;
 }
 
 #main label.aboutme_info {
@@ -103,6 +104,7 @@ html {
     border-right: 0px;
     border-bottom: 1;
     border-style: ridge;
+    text-shadow: black 2px 1px;
 }
 
 #main label.projects_positions {
@@ -110,8 +112,8 @@ html {
     position: relative;
     font-family: 'SiteFont';
     font-size: 300%;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
     margin-top: 150%;
+    text-shadow: black 2px 1px;
 }
 
 #main label.position_minerva {
@@ -120,9 +122,9 @@ html {
     display: flex;
     font-family: 'SiteFont';
     font-size: 170%;
-    text-shadow: 0 0 5px rgb(0, 0, 0);
     border-top: 20px;
     border-color: rgb(20, 112, 133);
+    text-shadow: black 2px 1px;
 }
 
 #main button.link_project_minerva {
@@ -136,6 +138,7 @@ html {
     border-color: rgb(0, 170, 255);
     border-color: rgb(0, 170, 255);
     transition: transform 0.2s;
+    text-shadow: black 2px 1px;
 }
 
 #main button.link_project_minerva:hover {
@@ -153,11 +156,13 @@ html {
     font-size: 170%;
     border-color: rgb(0, 170, 255);
     transition: transform 0.2s;
+    text-shadow: black 2px 1px;
 }
 
 #main button.link_project_ixehl2rp:hover {
     transform: scale(1.1) translate(0, -5px);
     border: 2px solid rgb(255, 0, 0);
+    text-shadow: black 2px 1px;
 }
 
 #main label.project_ixehl2rp {
@@ -166,6 +171,7 @@ html {
     display: flex;
     font-family: 'SiteFont';
     font-size: 170%;
+    text-shadow: black 2px 1px;
 }
 
 #main label.project_cafebaltic {
@@ -174,4 +180,18 @@ html {
     display: flex;
     font-family: 'SiteFont';
     font-size: 170%;
+    text-shadow: black 2px 1px;
+}
+
+#media {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    margin-top: 2px;
+
+    flex: content;
+    flex-direction: column;
 }
