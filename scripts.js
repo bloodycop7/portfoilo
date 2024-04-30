@@ -11,7 +11,7 @@ function OpenSteam() {
 }
 
 function GoToMinerva() {
-    window.open("https://discord.gg/minervaservers");
+    window.open("https://discord.gg/U3FQducMdE");
 }
 
 function GoToIXEHL2RP() {
