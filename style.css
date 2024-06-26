@@ -196,7 +196,7 @@ html::-webkit-scrollbar {
 }
 
 #media label {
-    color:rgb(255, 255, 255);
+    color:white;
     position: relative;
     font-family: 'SiteFont';
     font-size: 300%;
