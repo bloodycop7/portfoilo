@@ -194,3 +194,13 @@ html::-webkit-scrollbar {
     flex: content;
     flex-direction: column;
 }
+
+#media label {
+    color:rgb(255, 255, 255);
+    position: relative;
+    font-family: 'SiteFont';
+    font-size: 300%;
+    text-shadow: black 2px 1px;
+    align-self: center;
+    padding-bottom: 10px;
+}
